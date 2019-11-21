@@ -91,7 +91,7 @@ public class BasePage {
         try {
             String jsoncontent=obj.toJSONString();
             File f1=new File(System.getProperty("user.dir")+ "/src/main/resources/Data");
-            
+
             if(!(f1.exists()))
             {
                 f1.createNewFile();
