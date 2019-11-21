@@ -51,10 +51,6 @@ public class BrowserFactory {
 
 
     public void tearDownBrowsers() {
-        long start = System.currentTimeMillis();
-        long finish = System.currentTimeMillis();
-        long totalTime = finish - start;
-        System.out.println("Total Time for page load - "+totalTime);
         if (driver != null);
         driver.quit();
 

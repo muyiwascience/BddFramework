@@ -5,6 +5,7 @@ Feature: Open a booking form via services
   I want to view a booking form
   So that I can see what is on the page
 
+@Regression
 Scenario: Get a booking form via the services
    Given I have access to the web api
    When i fetch a booking form
